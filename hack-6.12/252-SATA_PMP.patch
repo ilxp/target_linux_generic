@@ -12,7 +12,7 @@ This patch can be dropped if SATA_MV is ever re-added into the config.
 
 --- a/drivers/ata/Kconfig
 +++ b/drivers/ata/Kconfig
-@@ -96,7 +96,7 @@ config SATA_ZPODD
+@@ -112,7 +112,7 @@ config SATA_ZPODD
  
  config SATA_PMP
  	bool "SATA Port Multiplier support"
